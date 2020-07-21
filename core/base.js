@@ -5,7 +5,7 @@ export default new pulse({
     test: false
   },
   request: {
-    baseURL: 'https://35.232.166.109:3001'
+    baseURL: ''
   },
   routes: {
     sendEmail: (request, body) => request.post('send_email', body)

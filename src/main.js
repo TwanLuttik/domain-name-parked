@@ -4,8 +4,6 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-import Pulse from '../core/base';
-Vue.use(Pulse);
 
 new Vue({
   router,
