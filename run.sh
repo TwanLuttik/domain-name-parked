@@ -6,11 +6,11 @@ git pull > /dev/null 2>&1
 
 # Install node-modules
 echo "Installing node modules"
-npm i > /dev/null 2>&1
+yarn i > /dev/null 2>&1
 
 # Run build
 echo "Building"
-npm run build
+yarn build
 
 # Create the main folder
 echo "Creating the main folder"
